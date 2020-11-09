@@ -13,18 +13,9 @@
 .portfolio {
   background-color: pink;
 }
-
-/* .App-header {
-  background-color: ;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-.App-link {
-  color: #61dafb;
+.contact {
+  background-color: rgb(160, 148, 230);
+}
+.contact-me {
+  text-align: center;
 }
