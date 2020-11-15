@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-function NavTabs() {
+function Header() {
   const location = useLocation();
 
   return (
@@ -38,4 +38,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default Header;
