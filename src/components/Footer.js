@@ -1,9 +1,16 @@
 import React from "react";
 
 const Footer = () => (
-  <footer className="footer">
-    <div className="footer__right">
-      <h4>MADE by Ari Robinson</h4>
+  <footer
+    style={{
+      color: "black",
+      background: "plum",
+      textAlign: "center",
+    }}
+    className="footer"
+  >
+    <div className="footer">
+      <h4>Made by Ari Robinson</h4>
     </div>
   </footer>
 );

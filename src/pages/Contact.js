@@ -1,9 +1,9 @@
-import React, { useReducer, useRef } from "react";
+import React from "react";
 import Form from "react-bootstrap/Form";
 import "../index.css";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import ListGroupItem from "react-bootstrap/ListGroupItem";
+
 import Button from "react-bootstrap/Button";
 
 function Contact() {

@@ -1,8 +1,8 @@
-import React, { useReducer, useRef } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
 import "../App.css";
-// import Jumbotron from "react-bootstrap/Jumbotron";
+import Button from "react-bootstrap/Button";
 
 function Home() {
   return (
@@ -24,6 +24,17 @@ function Home() {
             <br></br>I want enhance my skills through continuous learning,
             self-development and creativity.
           </Card.Body>
+          <Button
+            variant="dark"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://docs.google.com/document/d/1Qyg-3dlbi2YalSOQUhfvpTHu5gVGEJhuuUAcdMY8Ovs/edit?usp=sharing";
+            }}
+          >
+            RESUME
+          </Button>
         </Card>
       </div>
     </div>

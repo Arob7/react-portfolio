@@ -1,4 +1,4 @@
-import React, { useReducer, useRef } from "react";
+import React from "react";
 import Image from "react-bootstrap/Image";
 import "../index.css";
 import Button from "react-bootstrap/Button";
@@ -7,6 +7,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="container text-center">
+        <h3>DAILY PLANNER</h3>
         <Image src={require("../images/dailyplannerscreenshot.png")} fluid />
         <Button
           variant="dark"
@@ -28,6 +29,7 @@ function Portfolio() {
         >
           WEBSITE
         </Button>{" "}
+        <h3>BIKE SHARE CONCEPT APP</h3>
         <Image src={require("../images/appscreenshot.JPG")} fluid />
         <Button
           variant="dark"
@@ -51,6 +53,7 @@ function Portfolio() {
         >
           WEBSITE
         </Button>{" "}
+        <h3>PASSWORD GENERATOR</h3>
         <Image src={require("../images/passwordscreenshot.PNG")} fluid />
         <Button
           variant="dark"
@@ -74,6 +77,7 @@ function Portfolio() {
         >
           WEBSITE
         </Button>{" "}
+        <h3>HIKING TRAIL LOCATOR</h3>
         <Image src={require("../images/project1screenshot.png")} fluid />
         <Button
           variant="dark"
@@ -95,6 +99,51 @@ function Portfolio() {
         >
           WEBSITE
         </Button>{" "}
+        <h3>BUDGET APP</h3>
+        <Image src={require("../images/budgetscreenshot.JPG")} fluid />
+        <Button
+          variant="dark"
+          type="button"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href =
+              "https://github.com/Arob7/offline-budget-tracker";
+          }}
+        >
+          GITHUB
+        </Button>{" "}
+        <Button
+          variant="dark"
+          type="button"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://glacial-wave-04506.herokuapp.com/";
+          }}
+        >
+          WEBSITE
+        </Button>{" "}
+        <h3>FITNESS TRACKER</h3>
+        <Image src={require("../images/fitnesstracker.JPG")} fluid />
+        <Button
+          variant="dark"
+          type="button"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://github.com/Arob7/Workout-Tracker";
+          }}
+        >
+          GITHUB
+        </Button>{" "}
+        <Button
+          variant="dark"
+          type="button"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://fast-inlet-26547.herokuapp.com/";
+          }}
+        >
+          WEBSITE
+        </Button>
       </div>
     </div>
   );
