@@ -10,7 +10,7 @@ const Footer = () => (
     className="footer"
   >
     <div className="footer">
-      <h4>Made by Ari Robinson</h4>
+      <h6>Made by Ari Robinson</h6>
     </div>
   </footer>
 );
