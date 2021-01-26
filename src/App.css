@@ -8,28 +8,31 @@
 }
 
 .home {
-  background-color: plum;
+  background-color: #027878;
 }
 .portfolio {
   background-color: lightsteelblue;
 }
-.contact,
-html {
+/* .contact {
   background-color: rgb(160, 148, 230);
-}
+} */
 .contact-me {
   text-align: center;
 }
 
-.card-body {
-  background-color: lightpink;
+.card-body,
+.contact {
+  background-color: #c22326;
 }
 
 .nav {
-  background-color: lightgrey;
+  background-color: #fdb632;
 }
 
-/* .list-group-flush {
-  color: azure;
+body {
+  font-family: "Allura", cursive;
+}
 
-SHOULD COLOR LINKS */
+.footer {
+  background-color: #fdb632;
+}

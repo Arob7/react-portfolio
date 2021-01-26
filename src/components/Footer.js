@@ -1,10 +1,11 @@
 import React from "react";
+import "../App.css";
 
 const Footer = () => (
   <footer
     style={{
       color: "black",
-      background: "plum",
+
       textAlign: "center",
     }}
     className="footer"

@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import "../index.css";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-
+import "../App.css";
 import Button from "react-bootstrap/Button";
 
 function Contact() {

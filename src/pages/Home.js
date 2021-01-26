@@ -17,25 +17,25 @@ function Home() {
             />
             <br></br>
             Hello! My name is Arion Robinson.
-            <br></br>I am attending Michigan State University's Full Stack Web
-            Development Boot Camp and graduate November 2020.
+            <br></br>I am a graduate from Michigan State University's Full Stack
+            Web Development Boot Camp.
             <br></br>I have held a variety of positions, my passion is creating
             new things and challenging myself.
             <br></br>I want enhance my skills through continuous learning,
             self-development and creativity.
           </Card.Body>
-          <Button
-            variant="dark"
-            type="button"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://docs.google.com/document/d/1Qyg-3dlbi2YalSOQUhfvpTHu5gVGEJhuuUAcdMY8Ovs/edit?usp=sharing";
-            }}
-          >
-            RESUME
-          </Button>
         </Card>
+        <Button
+          variant="warning"
+          type="button"
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href =
+              "https://docs.google.com/document/d/1Qyg-3dlbi2YalSOQUhfvpTHu5gVGEJhuuUAcdMY8Ovs/edit?usp=sharing";
+          }}
+        >
+          RESUME
+        </Button>
       </div>
     </div>
   );

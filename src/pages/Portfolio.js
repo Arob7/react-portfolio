@@ -8,7 +8,10 @@ function Portfolio() {
     <div className="portfolio">
       <div className="container text-center">
         <h3>DAILY PLANNER</h3>
-        <Image src={require("../images/dailyplannerscreenshot.png")} fluid />
+        <Image
+          src={require("../images/dailyplannerscreenshot.png")}
+          thumbnail
+        />
         <Button
           variant="dark"
           type="button"
@@ -30,7 +33,7 @@ function Portfolio() {
           WEBSITE
         </Button>{" "}
         <h3>BIKE SHARE CONCEPT APP</h3>
-        <Image src={require("../images/appscreenshot.JPG")} fluid />
+        <Image src={require("../images/appscreenshot.JPG")} thumbnail />
         <Button
           variant="dark"
           type="button"
@@ -54,7 +57,7 @@ function Portfolio() {
           WEBSITE
         </Button>{" "}
         <h3>PASSWORD GENERATOR</h3>
-        <Image src={require("../images/passwordscreenshot.PNG")} fluid />
+        <Image src={require("../images/passwordscreenshot.PNG")} thumbnail />
         <Button
           variant="dark"
           type="button"
@@ -78,7 +81,7 @@ function Portfolio() {
           WEBSITE
         </Button>{" "}
         <h3>HIKING TRAIL LOCATOR</h3>
-        <Image src={require("../images/project1screenshot.png")} fluid />
+        <Image src={require("../images/project1screenshot.png")} thumbnail />
         <Button
           variant="dark"
           type="button"
@@ -100,7 +103,7 @@ function Portfolio() {
           WEBSITE
         </Button>{" "}
         <h3>BUDGET APP</h3>
-        <Image src={require("../images/budgetscreenshot.JPG")} fluid />
+        <Image src={require("../images/budgetscreenshot.JPG")} thumbnail />
         <Button
           variant="dark"
           type="button"
@@ -123,7 +126,7 @@ function Portfolio() {
           WEBSITE
         </Button>{" "}
         <h3>FITNESS TRACKER</h3>
-        <Image src={require("../images/fitnesstracker.JPG")} fluid />
+        <Image src={require("../images/fitnesstracker.JPG")} thumbnail />
         <Button
           variant="dark"
           type="button"
