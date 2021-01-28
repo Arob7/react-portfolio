@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+
 .App {
   text-align: center;
 }
@@ -7,15 +9,11 @@
   width: 600px;
 }
 
-.home {
+.home,
+.portfolio {
   background-color: #027878;
 }
-.portfolio {
-  background-color: lightsteelblue;
-}
-/* .contact {
-  background-color: rgb(160, 148, 230);
-} */
+
 .contact-me {
   text-align: center;
 }
@@ -23,6 +21,7 @@
 .card-body,
 .contact {
   background-color: #c22326;
+  padding-top: 100px;
 }
 
 .nav {
@@ -30,7 +29,7 @@
 }
 
 body {
-  font-family: "Allura", cursive;
+  font-family: "Federo", sans-serif;
 }
 
 .footer {

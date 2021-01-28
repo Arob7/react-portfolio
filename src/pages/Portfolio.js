@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import "../index.css";
+import "../App.css";
 import Button from "react-bootstrap/Button";
 
 function Portfolio() {
