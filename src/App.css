@@ -1,37 +1,127 @@
-@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
-.App {
+/* html {
+  background-image: url("https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+} */
+
+.photo {
+  height: 300px;
+  width: 300px;
+}
+
+.card {
+  width: 500px;
+  align-items: center;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 26px;
   text-align: center;
 }
 
-.photo {
-  height: 600px;
-  width: 600px;
+.div.card {
+  display: flex;
+  align-items: center;
 }
 
-.home,
-.portfolio {
-  background-color: #027878;
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(272, 37%, 12%);
+}
+
+.btn {
+  width: 250px;
 }
 
 .contact-me {
   text-align: center;
 }
 
-.card-body,
 .contact {
   background-color: #c22326;
-  padding-top: 100px;
 }
 
 .nav {
-  background-color: #fdb632;
+  background-color: hsl(272, 37%, 12%);
 }
 
 body {
-  font-family: "Federo", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
-.footer {
-  background-color: #fdb632;
+a.nav-link {
+  color: hsl(298, 66%, 48%);
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  color: whitesmoke;
+}
+
+.portfolio {
+  background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 1rem;
+  color: whitesmoke;
+}
+
+.thumbnail {
+  background-color: black;
+  width: 400px;
+  height: 290px;
+  display: inline-block; /* makes it fit in like an <img> */
+  background-size: cover; /* or contain */
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+div.btn {
+  display: flex;
+  margin-left: 70px;
+}
+
+.github-btn {
+  margin-right: 1em;
+}
+
+.contact {
+  background-image: url("https://images.pexels.com/photos/6751289/pexels-photo-6751289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.label {
+  text-align: center;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
+  justify-content: center;
+  margin-left: 40px;
+  font-family: "Quicksand", sans-serif;
+  text-decoration-line: underline;
 }

@@ -4,8 +4,6 @@ import "../App.css";
 const Footer = () => (
   <footer
     style={{
-      color: "black",
-
       textAlign: "center",
     }}
     className="footer"

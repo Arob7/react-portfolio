@@ -54,8 +54,11 @@ function Contact() {
             Twitter: CodeName_Arob
           </Card.Link>
         </ListGroup>
-        <p>Phone: 313-870-8766</p>
-        <p>Email:Arobinson9008@gmail.com</p>
+        <p>
+          Phone: 313-870-8766
+          <br></br>
+          Email:Arobinson9008@gmail.com
+        </p>
       </div>
     </div>
   );
